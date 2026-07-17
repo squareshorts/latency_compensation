@@ -24,7 +24,7 @@ The active method combines measured camera motion, source-time lidar depth, and 
 
 ## AV2 confirmation design
 
-The frozen plan uses official Argoverse 2 Sensor data, two real detectors, complete-log grouping, and genuine annotated endpoints at 100–500 ms. The primary endpoint is normalized center error at 300 ms in high-yaw held-out logs. Acquisition is blocked until a fixed official cohort fits available storage without violating the minimum 30 held-out-log requirement.
+The frozen plan uses official Argoverse 2 Sensor data, two real detectors, complete-log grouping, and genuine annotated endpoints at 100–500 ms. The primary endpoint is normalized center error at 300 ms in high-yaw held-out logs. The fixed 80-development/20-model-selection/50-held-out cohort has been downloaded and verified; detector inference and propagation remain to be run.
 
 ## Causal-data rules
 
@@ -41,11 +41,11 @@ $env:PYTHONPATH='C:\work\auto\src'
 
 ## Results
 
-The nuScenes independent reproduction and baseline-comparison analysis is under `results/nuscenes_500ms_reproduction`. AV2 confirmatory analysis outputs will be written to `results/av2_confirmation` only after the fixed cohort is recorded.
+The nuScenes independent reproduction and baseline-comparison analysis is under `results/nuscenes_500ms_reproduction`. The fixed AV2 cohort and timestamp audit are under `results/av2_confirmation`; its scientific decision remains blocked pending the two frozen detector runs and causal evaluation.
 
 ## Limitations
 
-The nuScenes result is a pilot only in evidential scope: it uses 10 mini scenes, one detector, source-annotation-assisted identity matching, and a 500 ms horizon. It is not a publication-level external confirmation. AV2 generalization, detector-only association, multiple detectors, and the 300 ms endpoint remain open.
+The nuScenes result is a pilot only in evidential scope: it uses 10 mini scenes, one detector, source-annotation-assisted identity matching, and a 500 ms horizon. It is not a publication-level external confirmation. AV2 detector-only association, multiple-detector comparison, and the 300 ms endpoint remain open.
 
 ## Archived routes
 

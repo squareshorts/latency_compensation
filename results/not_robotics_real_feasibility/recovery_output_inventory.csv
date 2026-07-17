@@ -1,0 +1,39 @@
+path,size_bytes,modified_local,extension,validation,content_markers,content_classification
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\action_ablation.csv,211,2026-07-16T16:20:28.687376022-03:00,.csv,valid_csv rows=6 columns=4,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\dataset_inventory.csv,69,2026-07-16T16:20:20.595307827-03:00,.csv,valid_csv rows=1 columns=4,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\detector_outputs.parquet,37,2026-07-16T16:20:24.667586565-03:00,.parquet,INVALID ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.,dummy,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\heldout_scene_metrics.csv,149,2026-07-16T16:20:30.708617687-03:00,.csv,valid_csv rows=3 columns=4,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\leakage_audit.md,254,2026-07-16T16:20:32.723579407-03:00,.md,readable_text chars=254,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\metric_recalculation.csv,147,2026-07-16T16:22:55.462024212-03:00,.csv,valid_csv rows=1 columns=2,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\provenance_audit.md,1264,2026-07-16T16:22:57.494189501-03:00,.md,readable_text chars=1264,dummy;mock;synthetic,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\README.md,892,2026-07-16T16:20:36.771359205-03:00,.md,readable_text chars=892,mock,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\real_sample_trace.csv,69,2026-07-16T16:22:53.434723139-03:00,.csv,valid_csv rows=1 columns=2,dummy;mock,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\reliability_scores.parquet,39,2026-07-16T16:20:26.673481703-03:00,.parquet,INVALID ArrowInvalid: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.,dummy,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\scientific_decision.md,740,2026-07-16T16:20:34.752727985-03:00,.md,readable_text chars=740,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\synchronization_audit.csv,98,2026-07-16T16:20:22.640712738-03:00,.csv,valid_csv rows=4 columns=2,,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_feasibility_INVALID_SYNTHETIC\synthetic_content_scan.csv,322,2026-07-16T16:22:51.157883406-03:00,.csv,valid_csv rows=4 columns=3,dummy;mock,invalid_synthetic_artifact
+C:\work\auto\results\not_robotics_real_feasibility\action_ablation.csv,471,2026-07-17T11:22:00.075070858-03:00,.csv,valid_csv rows=6 columns=4,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\can_field_inventory.csv,491,2026-07-17T11:22:00.087688923-03:00,.csv,valid_csv rows=10 columns=3,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\can_field_inventory_INCOMPLETE.csv,36,2026-07-16T16:29:49.741428852-03:00,.csv,valid_csv rows=1 columns=2,,preserved_incomplete_prior_output
+C:\work\auto\results\not_robotics_real_feasibility\data_presence_audit_INCOMPLETE.csv,54,2026-07-16T17:04:22.241577625-03:00,.csv,valid_csv rows=3 columns=2,,preserved_incomplete_prior_output
+C:\work\auto\results\not_robotics_real_feasibility\data_presence_report_INCOMPLETE.md,245,2026-07-16T16:29:47.687394381-03:00,.md,readable_text chars=245,,preserved_incomplete_prior_output
+C:\work\auto\results\not_robotics_real_feasibility\detector_outputs.parquet,729190,2026-07-17T11:22:00.008712053-03:00,.parquet,valid_parquet rows=8946 columns=35,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\detector_outputs_INCOMPLETE.parquet,26881,2026-07-16T17:07:16.385052681-03:00,.parquet,valid_parquet rows=404 columns=13,,preserved_incomplete_prior_output
+C:\work\auto\results\not_robotics_real_feasibility\feasibility_study_report.md,900,2026-07-17T11:22:00.092692852-03:00,.md,readable_text chars=873,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\feasibility_study_report_INCOMPLETE.md,170,2026-07-16T17:07:16.385052681-03:00,.md,readable_text chars=164,,preserved_incomplete_prior_output
+C:\work\auto\results\not_robotics_real_feasibility\frame_observations.parquet,1106775,2026-07-17T11:22:00.038579941-03:00,.parquet,valid_parquet rows=404 columns=28,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\headline_metrics.json,828,2026-07-17T11:22:00.090728998-03:00,.json,valid_json type=dict,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\heldout_scene_metrics.csv,982,2026-07-17T11:23:33.512046337-03:00,.csv,valid_csv rows=10 columns=10,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\leakage_audit.md,506,2026-07-17T11:22:00.092692852-03:00,.md,readable_text chars=497,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\logs\recovery_resume.log,3869,2026-07-17T11:27:43.362714767-03:00,.log,readable_text chars=3852,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\metric_recalculation.csv,2703,2026-07-17T11:23:33.494540930-03:00,.csv,valid_csv rows=39 columns=5,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\optic_flow_verification.csv,43459,2026-07-17T11:26:32.743647337-03:00,.csv,valid_csv rows=404 columns=7,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\provenance_audit.md,578,2026-07-17T11:22:00.092692852-03:00,.md,readable_text chars=570,fabricated;mock;placeholder;synthetic,marker_mentioned_in_audit_or_provenance_text
+C:\work\auto\results\not_robotics_real_feasibility\real_sample_trace.csv,20683,2026-07-17T11:23:33.512046337-03:00,.csv,valid_csv rows=50 columns=16,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\recovery_file_inventory.csv,6518549,2026-07-17T11:26:46.292093039-03:00,.csv,valid_csv rows=39068 columns=6,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\recovery_status.md,6023,2026-07-17T11:26:46.757064104-03:00,.md,readable_text chars=5910,fabricated;mock;placeholder;synthetic,marker_mentioned_in_audit_or_provenance_text
+C:\work\auto\results\not_robotics_real_feasibility\reliability_scores.parquet,575294,2026-07-17T11:22:00.057373524-03:00,.parquet,valid_parquet rows=8946 columns=19,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\run_manifest.json,2328,2026-07-17T11:22:00.089684486-03:00,.json,valid_json type=dict,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\scientific_decision.md,377,2026-07-17T11:22:00.092692852-03:00,.md,readable_text chars=365,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\synchronization_audit.csv,137332,2026-07-17T11:22:00.083045006-03:00,.csv,valid_csv rows=1616 columns=6,,no_marker_detected
+C:\work\auto\results\not_robotics_real_feasibility\synchronization_summary.csv,419,2026-07-17T11:22:00.083045006-03:00,.csv,valid_csv rows=4 columns=7,,no_marker_detected

@@ -1,0 +1,70 @@
+{
+  "run_id": "recovery-2026-07-17-real-nuscenes-mini",
+  "status": "completed",
+  "seed": 20260717,
+  "dataset": "nuScenes v1.0-mini",
+  "data_root": "C:\\work\\auto\\data\\nuscenes",
+  "weights": "C:\\work\\auto\\yolo11n.pt",
+  "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "detector": "YOLO11n",
+  "inference": {
+    "image_size": 640,
+    "confidence_threshold": 0.05,
+    "nms_iou": 0.7,
+    "device": "cpu"
+  },
+  "matching": {
+    "projected_2d_class_aware_iou": 0.5,
+    "mapped_classes": [
+      "bicycle",
+      "bus",
+      "car",
+      "motorcycle",
+      "person",
+      "truck"
+    ]
+  },
+  "cross_validation": "5-fold GroupKFold by scene; nested grouped threshold selection",
+  "versions": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.13.0+cpu",
+    "ultralytics": "8.4.96",
+    "sklearn": "1.7.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "opencv": "5.0.0"
+  },
+  "headline_metrics": {
+    "processed_scenes": 10,
+    "processed_frames": 404,
+    "evaluated_gt_boxes": 4068,
+    "predictions": 8946,
+    "matched_tp": 1916,
+    "baseline_fp": 7030,
+    "best_non_action_model": "detector_only",
+    "best_non_action_auc": 0.8124942462515257,
+    "full_action_auc": 0.7469090120776749,
+    "action_information_auc_benefit": -0.06558523417385076,
+    "shifted_1s_auc": 0.7803822419276765,
+    "shuffled_auc": 0.8088964830119648,
+    "baseline_recall": 0.47099311701081614,
+    "gated_recall": 0.4498525073746313,
+    "recall_change": -0.02114060963618486,
+    "high_motion_baseline_fp": 2336,
+    "high_motion_gated_fp": 2203,
+    "high_motion_fp_change_fraction": -0.056934931506849314,
+    "best_non_action_ece": 0.19045359626963726,
+    "full_action_ece": 0.22954367135769765,
+    "calibration_ece_change": 0.039090075088060394
+  },
+  "decision_criteria": {
+    "auc_benefit_at_least_0.05": false,
+    "correct_timing_beats_shifted_and_shuffled": false,
+    "high_motion_fp_reduction_at_least_10pct": false,
+    "absolute_recall_loss_at_most_2pp": false,
+    "calibration_not_worse": false,
+    "no_temporal_or_scene_leakage": true
+  },
+  "scientific_decision": "NO-GO"
+}

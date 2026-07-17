@@ -1,0 +1,34 @@
+{
+  "study": "action-conditioned dual-loop latency compensation for streaming object detection",
+  "status": "blocked_after_observability_audit",
+  "data_root": "C:\\work\\auto\\data\\nuscenes",
+  "real_scenes": 10,
+  "real_cam_front_frames": 2342,
+  "annotated_keyframes": 404,
+  "latency_horizons_ms": [
+    100,
+    200,
+    300,
+    400,
+    500
+  ],
+  "primary_endpoint": "300 ms high-yaw propagated-box center error",
+  "primary_real_annotated_pairs": 0,
+  "blocker": "nuScenes object annotations and instance tokens exist only on keyframes; no real 300 ms annotated endpoint pairs",
+  "prohibited_workaround_not_used": "annotation or object-identity interpolation into sweeps",
+  "blocked_output_paths": [
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\motion_forecasts.parquet",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\propagated_boxes.parquet",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\latency_metrics.csv",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\scene_heldout_metrics.csv",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\action_ablation.csv",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\loop_ablation.csv",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\operating_envelope.csv",
+    "C:\\work\\auto\\results\\not_dual_loop_latency\\failure_boundary.csv"
+  ],
+  "input_hashes": {
+    "prior_detector_outputs_sha256": "8e9798ae2037ab5d8ea5e0b258dda78cc597196100192e5c3faf1b25f73d657c",
+    "prior_frame_observations_sha256": "96fb16cdb603009761360022b52d785bf563b10dd1cf7d8258e507d8adf6c7f9",
+    "yolo11n_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1"
+  }
+}

@@ -1,0 +1,24 @@
+# Raw and externally managed data
+/data/nuscenes/
+/downloads/
+/external/
+/.venv-not-robotics/
+/*.pt
+
+# Python/build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local scratch
+*.tmp
+*.bak
+Thumbs.db
+
+# Future AV2 payloads remain external; manifests stay tracked.
+/data/av2/

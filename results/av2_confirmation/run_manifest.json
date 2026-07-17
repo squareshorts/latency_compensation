@@ -1,0 +1,11 @@
+{
+  "study": "AV2 confirmatory analysis",
+  "status": "cohort_downloaded_pair_audit_complete_detector_inference_not_started",
+  "seed": 20260717,
+  "cohort": {"development_logs": 80, "model_selection_logs": 20, "heldout_logs": 50, "total_logs": 150},
+  "payload": {"objects": 72557, "bytes": 38058552798, "verified": true, "camera": "ring_front_center"},
+  "latency_pairs": {"timestamp_pairs": 116200, "requested_offsets_ms": [100, 200, 300, 400, 500], "annotation_interpolation": false},
+  "detectors": {"primary": "YOLO11n", "secondary": "YOLO11s", "inference_status": "not_started"},
+  "methods_frozen": true,
+  "future_geometry_input": false
+}

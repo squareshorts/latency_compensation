@@ -1,0 +1,10 @@
+action,source,destination,recoverability
+baseline_commit,C:\work\auto,git commit 8fe966206bd32b56d6d373aad901f03a0348f91a,permanent local Git object
+safety_tag,C:\work\auto,pre-latency-compensation-pivot-2026-07,tagged baseline
+promote_nuscenes_feasibility,results/not_dual_loop_latency_500ms,results/nuscenes_500ms_reproduction,safety tag and active branch
+archive_reliability_gate,results/not_robotics_real_feasibility,archive/negative_routes/action_reliability_gate,full route recoverable from safety tag
+archive_visual_residual,results/not_dual_loop_latency_500ms,archive/negative_routes/dual_loop_visual_residual,full route recoverable from safety tag
+archive_cadence_blocker,results/not_dual_loop_latency,archive/negative_routes/blocked_annotation_cadence,full route recoverable from safety tag
+remove_incomplete_files,pre-pivot tracked state,not retained in active tree,recoverable from safety tag
+exclude_raw_data,data/nuscenes;downloads;external;*.pt,unchanged and Git-ignored,local filesystem
+synthetic_invalid,no directory present at pivot audit,archive/synthetic_invalid/README.md,audit record only

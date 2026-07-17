@@ -1,9 +1,0 @@
-asset,path,count,status
-CAM_FRONT images,C:\work\auto\data\nuscenes\samples\CAM_FRONT;C:\work\auto\data\nuscenes\sweeps\CAM_FRONT,2342,reused_verified_real
-annotated CAM_FRONT keyframes,C:\work\auto\data\nuscenes\v1.0-mini\sample_data.json,404,reused_verified_real
-nuScenes scenes,C:\work\auto\data\nuscenes\v1.0-mini\scene.json,10,reused_verified_real
-sample annotations,C:\work\auto\data\nuscenes\v1.0-mini\sample_annotation.json,18538,reused_verified_real_keyframes_only
-CAN JSON files,C:\work\auto\data\nuscenes\can_bus,7832,reused_verified_real
-YOLO11n matched predictions,C:\work\auto\results\not_robotics_real_feasibility\detector_outputs.parquet,8946,reused_verified_real_keyframes_only
-YOLO11n processed keyframes,C:\work\auto\results\not_robotics_real_feasibility\frame_observations.parquet,404,reused_verified_real
-YOLO11n weights,C:\work\auto\yolo11n.pt,1,reused_verified_real_inference

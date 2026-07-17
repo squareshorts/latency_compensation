@@ -1,0 +1,11 @@
+study: av2_confirmation
+seed: 20260717
+latency_ms: [100, 200, 300, 400, 500]
+primary_latency_ms: 300
+primary_yaw_threshold_source: development_upper_quartile
+development_logs: 80
+model_selection_logs: 20
+heldout_logs: 50
+detectors: [yolo11n, yolo11s]
+smoke_test: false
+status: blocked_pending_fixed_official_cohort

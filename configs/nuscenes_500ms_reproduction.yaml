@@ -1,0 +1,7 @@
+study: nuscenes_500ms_independent_reproduction
+seed: 20260717
+latency_ms: 500
+scene_grouping: complete_scene
+bootstrap_replicates: 10000
+models: [N0, N1, N2, N3, N4, N5, N6]
+oracle_excluded_from_decision: true

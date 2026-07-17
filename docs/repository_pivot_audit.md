@@ -22,7 +22,7 @@ Audit time: 2026-07-17 (America/Fortaleza)
 - Permanent archives: `C:\work\auto\downloads\nuscenes`
 - nuScenes devkit: `C:\work\auto\external\nuscenes-devkit`
 - YOLO11n weights: `C:\work\auto\yolo11n.pt`
-- Confirmed 500 ms pilot: `C:\work\auto\results\not_dual_loop_latency_500ms`
+- Pre-pivot path of the nuScenes real-data feasibility result: `C:\work\auto\results\not_dual_loop_latency_500ms`
 - Negative reliability-gate audit: `C:\work\auto\results\not_robotics_real_feasibility`
 - Annotation-cadence audit: `C:\work\auto\results\not_dual_loop_latency`
 

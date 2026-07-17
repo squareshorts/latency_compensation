@@ -1,0 +1,48 @@
+frozen_at: 2026-07-17
+seed: 20260717
+status: frozen_before_av2_outcome_analysis
+association:
+  algorithm: hungarian
+  class_exact_match: true
+  minimum_iou: 0.10
+  maximum_normalized_center_distance: 0.15
+  maximum_track_gap_ms: 600
+object_motion:
+  primary: historical_3d_constant_velocity
+  image_tracker_baseline: kalman_constant_velocity
+  history_length: 4
+  alpha_beta_alpha: 0.65
+  maximum_object_speed_mps: 30.0
+depth:
+  source: source_timestamp_lidar
+  statistic: median_points_inside_detection
+  uncertainty: scaled_mad
+  minimum_points: 1
+  fallback: cross_log_box_geometry_regression
+ego_motion:
+  source: measured_poses_up_to_detector_availability
+  camera_model: calibrated_rigid_transform
+models:
+  B0: stale
+  B1: constant_image_velocity
+  B2: kalman_image_tracker
+  B3: ego_motion_only
+  B4: ego_motion_plus_historical_object_motion
+  B5: uncertainty_damped_B4
+damping:
+  lidar_saturation_points: 10
+  depth_dispersion_scale_m: 5.0
+  track_age_saturation: 3
+primary_endpoint:
+  latency_ms: 300
+  yaw_threshold: development_upper_quartile
+  metric: median_normalized_center_error
+validation:
+  grouping: complete_log
+  bootstrap_replicates: 10000
+  bootstrap_unit: log
+  heldout_logs_minimum: 30
+detectors:
+  primary: yolo11n
+  secondary: yolo11s
+oracle_excluded_from_decision: true

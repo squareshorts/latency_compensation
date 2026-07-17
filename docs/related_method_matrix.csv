@@ -1,0 +1,6 @@
+method,family,uses_ego_motion,uses_object_motion,uses_visual_residual,uses_action_fields,latency_compensation_role,source
+SORT,Kalman tracking,no,no,no,no,constant-velocity box prediction,https://arxiv.org/abs/1602.00763
+Deep SORT,appearance tracking,no,yes,no,no,history plus association,https://arxiv.org/abs/1703.07402
+Ego-motion compensation,geometric warp,yes,no,no,no,pose-only image/object propagation,https://arxiv.org/abs/1703.07510
+Optical-flow warping,visual motion,implicit,no,yes,no,background-flow propagation,https://arxiv.org/abs/1612.00796
+Ours,frozen dual-loop,yes,yes,yes,strictly-past optional,causal latency compensation,internal specification

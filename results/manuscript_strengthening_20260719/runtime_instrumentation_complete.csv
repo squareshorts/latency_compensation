@@ -1,0 +1,4 @@
+component,detector,median_ms,p25_ms,p75_ms,p95_ms,observations,timing_unit,warmup_iterations,CPU,GPU,OS,Python,inference_excluded,io_excluded
+detector_inference,rtdetr_l,77.5890095533934,,,151.70404056425065,16022,per_frame,0,Desktop CPU,Desktop GPU,Windows,3.x,False,True
+B3_overhead_total,all,1.26258961598,,,2.51444540092,2000,per_frame,200,"Windows-10-10.0.26200-SP0; processor=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",None,Windows-10,3.x,True,True
+B5_overhead_total,all,1.13796801843,,,2.14039867896,2000,per_frame,200,"Windows-10-10.0.26200-SP0; processor=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",None,Windows-10,3.x,True,True

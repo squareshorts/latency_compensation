@@ -1,0 +1,7 @@
+model,metric,value
+YOLO11s,median_inference_ms,0.0
+YOLO11s,p95_inference_ms,0.0
+RT-DETR-L,median_inference_ms,77.5890095533934
+RT-DETR-L,p95_inference_ms,151.70404056425065
+B3,median_prediction_overhead_ms,1.26258961598
+B5,median_prediction_overhead_ms,1.13796801843

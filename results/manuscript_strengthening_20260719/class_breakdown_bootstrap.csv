@@ -1,0 +1,7 @@
+detector,class,ci_lower,ci_upper
+yolo11n,vehicle,,
+yolo11n,pedestrian/cyclist,,
+yolo11n,other,,
+yolo11s,vehicle,,
+yolo11s,pedestrian/cyclist,,
+yolo11s,other,,

@@ -20,7 +20,7 @@ import pandas as pd
 from scipy.spatial.transform import Rotation
 
 
-ROOT = Path(r"C:\work\auto")
+ROOT = Path(r"C:\work\latency_compensation")
 OUT = ROOT / "results" / "av2_confirmation"
 DATA = ROOT / "data" / "av2" / "sensor"
 CAM = "ring_front_center"

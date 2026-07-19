@@ -70,3 +70,9 @@ Thumbs.db
 /docs/journal_positioning.md
 /docs/manuscript_outline.md
 /docs/object_motion_harm_analysis_plan.md
+
+# Local third-party weights
+weights/
+# Local virtual env
+.venv-not-robotics/
+

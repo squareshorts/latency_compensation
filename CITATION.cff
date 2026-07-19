@@ -1,11 +1,18 @@
 cff-version: 1.2.0
-title: "Latency-Compensated Detection"
-message: "Please cite this software if you use the causal latency-compensation pipeline."
+title: "When More Motion Modeling Hurts: Causal Latency Compensation for Streaming Object Detection"
+message: "Please cite this software release and its archived record if you use the analysis or causal latency-compensation pipeline."
 type: software
 authors:
   - family-names: Pereira
     given-names: Antonio
-version: 0.1.0
-date-released: 2026-07-17
-repository-code: "LOCAL-ONLY: no remote configured"
+    affiliation: "Faculdade de Engenharia ElÃ©trica e BiomÃ©dica, Instituto de Tecnologia, Universidade Federal do ParÃ¡, BelÃ©m, Brazil"
+version: 1.0.0
+date-released: 2026-07-18
 license: MIT
+keywords:
+  - streaming perception
+  - object detection
+  - latency compensation
+  - ego-motion compensation
+  - multi-object tracking
+  - autonomous driving

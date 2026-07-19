@@ -1,0 +1,13 @@
+detector,proposed_model,baseline,comparison,role,delta_ms,yaw_stratum,replicates,paired_relative_improvement,relative_improvement_ci_low,relative_improvement_ci_high,iou_change_ci_low,iou_change_ci_high,recall_iou_0_3_change_ci_low,recall_iou_0_3_change_ci_high,status
+yolo11n,B4,stale,B0_stale,heldout,300,all_unstratified,10000,-0.000757833291416,-0.00263627866746,0.000190097657854,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11n,B4,constant_velocity,best_image_space_tracker_B1_constant_velocity,heldout,300,all_unstratified,10000,0,0,0,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11n,B4,ego_motion_only,B3_ego_motion_only,heldout,300,all_unstratified,10000,-0.000757833291416,-0.00249279441885,0.000169149454731,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11n,B5,stale,B0_stale,heldout,300,all_unstratified,10000,-0.000402284791278,-0.00206586326936,0.000297254200065,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11n,B5,constant_velocity,best_image_space_tracker_B1_constant_velocity,heldout,300,all_unstratified,10000,0.000709438355141,0.000163748725324,0.00135773517726,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11n,B5,ego_motion_only,B3_ego_motion_only,heldout,300,all_unstratified,10000,-0.000402284791278,-0.00206586326936,0.000297254200065,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B4,stale,B0_stale,heldout,300,all_unstratified,10000,-0.000407323055825,-0.00125043104695,0.00089980297808,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B4,constant_velocity,best_image_space_tracker_B1_constant_velocity,heldout,300,all_unstratified,10000,0,0,0,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B4,ego_motion_only,B3_ego_motion_only,heldout,300,all_unstratified,10000,-0.000407323055825,-0.00124421249126,0.000818821158958,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B5,stale,B0_stale,heldout,300,all_unstratified,10000,0.000193898498995,-0.000338690352385,0.000790333887815,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B5,constant_velocity,best_image_space_tracker_B1_constant_velocity,heldout,300,all_unstratified,10000,0.000469798211115,-0.000336121073684,0.00114080098202,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet
+yolo11s,B5,ego_motion_only,B3_ego_motion_only,heldout,300,all_unstratified,10000,0.000193898498995,-0.000338690352385,0.000775214262807,0,0,0,0,nonconfirmatory_context_yaw_not_stored_in_frozen_parquet

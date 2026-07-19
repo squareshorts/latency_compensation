@@ -1,0 +1,6 @@
+Command: powershell -NoProfile -Command "$env:PYTHONPATH=\"src\"; C:\work\auto\.venv-not-robotics\Scripts\python.exe -m pytest tests\ --disable-warnings"
+Environment: Windows PowerShell, PYTHONPATH=src
+Elapsed: 1.73s
+
+....................                                                     [100%]
+20 passed in 0.67s

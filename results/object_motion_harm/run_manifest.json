@@ -1,0 +1,68 @@
+{
+  "analysis": "object_motion_harm",
+  "created_utc": "2026-07-18T14:42:09.651839+00:00",
+  "commit": "a8b57d6cef6844e4c1045ea950de82427f89c017",
+  "branch": "analysis/object-motion-harm",
+  "safety_tag": "pre-object-motion-harm-analysis-2026-07",
+  "python": "3.10.11",
+  "bootstrap_replicates": 10000,
+  "seed": 20260718,
+  "protected_inputs": {
+    "corrected_av2_propagation": {
+      "path": "C:\\work\\auto\\results\\av2_confirmation\\corrected_checkpoints",
+      "sha256_tree": "44a425bdab4d9925035fc6047845e7ca5487a99cf0bfef515ec5ac52ad7de921",
+      "files": 300,
+      "bytes": 917849797
+    },
+    "av2_detector_checkpoints": {
+      "path": "C:\\work\\auto\\results\\av2_confirmation\\checkpoints",
+      "sha256_tree": "59a7cbac682e45da3208eb4cfb2dd4ba95483c7b077f9f6dcf2a0372622252bf",
+      "files": 600,
+      "bytes": 369356954
+    },
+    "invalid_run_archive": {
+      "path": "C:\\work\\auto\\results\\av2_confirmation\\invalid_propagation_run",
+      "sha256_tree": "b24fc60551d3d3ff5ab49311bfe80fa9f809e53421fb974c492864926a6e969a",
+      "files": 317,
+      "bytes": 79595004
+    },
+    "nuscenes_reproduction": {
+      "path": "C:\\work\\auto\\results\\nuscenes_500ms_reproduction",
+      "sha256_tree": "cae2110da52b2924ac6f12e3f9d28930763bdcdaf383dfbcba9b02996371ea6c",
+      "files": 22,
+      "bytes": 3865751
+    },
+    "av2_method_frozen.yaml": {
+      "path": "C:\\work\\auto\\configs\\av2_method_frozen.yaml",
+      "sha256": "0e3576df28fe9ca154888415dd2b045ec0f4de552a6e57843b823b79587f9e48",
+      "bytes": 1299
+    },
+    "av2_development_logs.txt": {
+      "path": "C:\\work\\auto\\configs\\av2_development_logs.txt",
+      "sha256": "44ce2a8566becb1f93f2c7ae65578245d6d15a139fcaefc8100304c28bded983",
+      "bytes": 3040
+    },
+    "av2_model_selection_logs.txt": {
+      "path": "C:\\work\\auto\\configs\\av2_model_selection_logs.txt",
+      "sha256": "412926b5c01e2db60db9854a000278cd76f391decf60994b7e503cde7a853d35",
+      "bytes": 760
+    },
+    "av2_heldout_logs.txt": {
+      "path": "C:\\work\\auto\\configs\\av2_heldout_logs.txt",
+      "sha256": "15968906597b4826142e01d69fe8c282d84d67ae0a401dd221fe92fecf0fd5c7",
+      "bytes": 1900
+    },
+    "frozen_method_specification.md": {
+      "path": "C:\\work\\auto\\docs\\frozen_method_specification.md",
+      "sha256": "93532d44862d3f90c2a1a659e729a46b552b461b84c0331860d475753791d91e",
+      "bytes": 935
+    }
+  },
+  "detector_inference_rerun": false,
+  "heldout_cohort_changed": false,
+  "deployable_future_geometry_rows": 0,
+  "leakage_audit": "PASS",
+  "provenance_audit": "PASS",
+  "B5_confirmatory_decision": "NO-GO",
+  "publication_decision": "PAPER GO"
+}

@@ -1,0 +1,94 @@
+detector,log_id,reason
+yolo11n,19f53e16-9f99-3035-9672-7e860f3b0048,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11n,51bbdd4d-3065-34ae-b369-b6e0444f34db,Missing propagation output.
+yolo11n,6803104a-bb06-402e-8471-e5af492db0a8,Missing propagation output.
+yolo11n,72cf3ca1-1a9e-3254-bca0-29c62521e454,Missing propagation output.
+yolo11n,7606de8d-486c-4916-9cbb-002ee966f834,Missing propagation output.
+yolo11n,78f7cb5c-9d51-34f0-b356-9b3d83263c75,Missing propagation output.
+yolo11n,7de2e535-81df-3d5f-a5ca-62e4b940eb54,Missing propagation output.
+yolo11n,7e4d67b3-c3cc-3288-afe5-043602ea3c70,Missing propagation output.
+yolo11n,7fab2350-7eaf-3b7e-a39d-6937a4c1bede,Missing propagation output.
+yolo11n,8749f79f-a30b-3c3f-8a44-dbfa682bbef1,Missing propagation output.
+yolo11n,88f47a10-87b4-3ea8-a0c7-a07d825b647d,Missing propagation output.
+yolo11n,91aab547-1912-3b8e-8e7f-df3b202147bf,Missing propagation output.
+yolo11n,9bb1f857-8b61-369f-a537-484c1323ae32,Missing propagation output.
+yolo11n,a060c4c1-b9fc-39c1-9d30-d93a124c9066,Missing propagation output.
+yolo11n,a1589ae2-2678-310e-91cc-c4b512cd7fa5,Missing propagation output.
+yolo11n,a33a44fb-6008-3dc2-b7c5-2d27b70741e8,Missing propagation output.
+yolo11n,b6500255-eba3-3f77-acfd-626c07aa8621,Missing propagation output.
+yolo11n,b6e967f6-92bc-3bf5-99c9-1b0c4649fd67,Missing propagation output.
+yolo11n,b8489c02-60d0-3f44-a3b4-9de62830d666,Missing propagation output.
+yolo11n,ba67827f-6b99-3d2a-96ab-7c829eb999bb,Missing propagation output.
+yolo11n,bf382949-3515-3c16-b505-319442937a43,Missing propagation output.
+yolo11n,c222c78d-b574-4b9d-82e1-96a4f3f8bb27,Missing propagation output.
+yolo11n,c865c156-0f26-411c-a16c-be985333f675,Missing propagation output.
+yolo11n,cf5aaa11-4f92-3377-a7a2-861f305023eb,Missing propagation output.
+yolo11n,d770f926-bca8-31de-9790-73fbb7b6a890,Missing propagation output.
+yolo11n,d89f80be-76d0-3853-8daa-76605cf4ce5e,Missing propagation output.
+yolo11n,dc9077b9-2fe0-3d18-9b97-8067ff090874,Missing propagation output.
+yolo11n,de56b100-508b-3479-81fe-735349f8e8de,Missing propagation output.
+yolo11n,de9cf513-a0cd-3389-bc79-3f9f6f261317,Missing propagation output.
+yolo11n,ded5ef6e-46ea-3a66-9180-18a6fa0a2db4,Missing propagation output.
+yolo11n,dfc32963-1524-34f4-9f5e-0292f0f223ae,Missing propagation output.
+yolo11n,e0ea281b-6956-3605-b720-71b54ec87d25,Missing propagation output.
+yolo11n,e13c06cb-cd01-380e-946f-6d92ac1af49d,Missing propagation output.
+yolo11n,ecbe6def-7560-352c-8822-b2b92613e1e4,Missing propagation output.
+yolo11n,fbee355f-8878-31fa-8ac8-b9a45a3f130a,Missing propagation output.
+yolo11n,ff0dbfc5-8a7b-3a6e-8936-e5e812e45408,Missing propagation output.
+yolo11s,19f53e16-9f99-3035-9672-7e860f3b0048,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,51bbdd4d-3065-34ae-b369-b6e0444f34db,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,6803104a-bb06-402e-8471-e5af492db0a8,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,72cf3ca1-1a9e-3254-bca0-29c62521e454,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,8749f79f-a30b-3c3f-8a44-dbfa682bbef1,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,91aab547-1912-3b8e-8e7f-df3b202147bf,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,c865c156-0f26-411c-a16c-be985333f675,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,cf5aaa11-4f92-3377-a7a2-861f305023eb,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,d89f80be-76d0-3853-8daa-76605cf4ce5e,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,dc9077b9-2fe0-3d18-9b97-8067ff090874,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,fbee355f-8878-31fa-8ac8-b9a45a3f130a,Excluded during gate evaluation (e.g. no eligible comparisons).
+yolo11s,ff0dbfc5-8a7b-3a6e-8936-e5e812e45408,Excluded during gate evaluation (e.g. no eligible comparisons).
+rtdetr_l,02a00399-3857-444e-8db3-a8f58489c394,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,05fa5048-f355-3274-b565-c0ddc547b315,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,0bae3b5e-417d-3b03-abaa-806b433233b8,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,11ba4e81-c26f-3cd1-827d-b6913bcef64e,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,185d3943-dd15-397a-8b2e-69cd86628fb7,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,19f53e16-9f99-3035-9672-7e860f3b0048,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,214e388e-cbd7-3dde-a204-d2ec42298808,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,22052525-4f85-3fe8-9d7d-000a9fffce36,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,280269f9-6111-311d-b351-ce9f63f88c81,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,42f92807-0c5e-3397-bd45-9d5303b4db2a,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,51bbdd4d-3065-34ae-b369-b6e0444f34db,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,6803104a-bb06-402e-8471-e5af492db0a8,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,72cf3ca1-1a9e-3254-bca0-29c62521e454,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,7606de8d-486c-4916-9cbb-002ee966f834,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,78f7cb5c-9d51-34f0-b356-9b3d83263c75,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,7de2e535-81df-3d5f-a5ca-62e4b940eb54,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,7e4d67b3-c3cc-3288-afe5-043602ea3c70,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,7fab2350-7eaf-3b7e-a39d-6937a4c1bede,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,8749f79f-a30b-3c3f-8a44-dbfa682bbef1,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,88f47a10-87b4-3ea8-a0c7-a07d825b647d,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,91aab547-1912-3b8e-8e7f-df3b202147bf,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,9bb1f857-8b61-369f-a537-484c1323ae32,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,a060c4c1-b9fc-39c1-9d30-d93a124c9066,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,a1589ae2-2678-310e-91cc-c4b512cd7fa5,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,a33a44fb-6008-3dc2-b7c5-2d27b70741e8,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,b6500255-eba3-3f77-acfd-626c07aa8621,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,b6e967f6-92bc-3bf5-99c9-1b0c4649fd67,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,b8489c02-60d0-3f44-a3b4-9de62830d666,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,ba67827f-6b99-3d2a-96ab-7c829eb999bb,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,bf382949-3515-3c16-b505-319442937a43,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,c222c78d-b574-4b9d-82e1-96a4f3f8bb27,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,c865c156-0f26-411c-a16c-be985333f675,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,cf5aaa11-4f92-3377-a7a2-861f305023eb,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,d770f926-bca8-31de-9790-73fbb7b6a890,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,d89f80be-76d0-3853-8daa-76605cf4ce5e,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,dc9077b9-2fe0-3d18-9b97-8067ff090874,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,de56b100-508b-3479-81fe-735349f8e8de,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,de9cf513-a0cd-3389-bc79-3f9f6f261317,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,ded5ef6e-46ea-3a66-9180-18a6fa0a2db4,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,dfc32963-1524-34f4-9f5e-0292f0f223ae,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,e0ea281b-6956-3605-b720-71b54ec87d25,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,e13c06cb-cd01-380e-946f-6d92ac1af49d,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,ecbe6def-7560-352c-8822-b2b92613e1e4,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,fbee355f-8878-31fa-8ac8-b9a45a3f130a,Intentionally excluded; not completed; zero checkpoints; not to be rerun.
+rtdetr_l,ff0dbfc5-8a7b-3a6e-8936-e5e812e45408,Intentionally excluded; not completed; zero checkpoints; not to be rerun.

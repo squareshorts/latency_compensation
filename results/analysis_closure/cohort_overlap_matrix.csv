@@ -1,0 +1,17 @@
+cohort1,cohort2,overlap
+development,development,80
+development,model_selection,0
+development,heldout,0
+development,extension,0
+model_selection,development,0
+model_selection,model_selection,20
+model_selection,heldout,0
+model_selection,extension,0
+heldout,development,0
+heldout,model_selection,0
+heldout,heldout,50
+heldout,extension,0
+extension,development,0
+extension,model_selection,0
+extension,heldout,0
+extension,extension,45

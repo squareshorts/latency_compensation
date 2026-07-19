@@ -22,3 +22,51 @@ Thumbs.db
 
 # Future AV2 payloads remain external; manifests stay tracked.
 /data/av2/
+
+# Large resumable strengthening intermediates (aggregate results stay tracked)
+/results/sivp_strengthening/tracker_low_level/
+/results/sivp_strengthening/end_to_end_low_level/
+/results/sivp_strengthening/end_to_end_metric_shards/
+/results/sivp_strengthening/third_detector_checkpoints/
+/results/sivp_strengthening/third_detector_propagation/
+/results/sivp_strengthening/extension_detector_checkpoints/
+/results/sivp_strengthening/extension_propagation/
+/results/sivp_strengthening/*.log
+
+# Large frozen-analysis intermediates; compact aggregates and audits are tracked
+/results/av2_confirmation/checkpoints/
+/results/av2_confirmation/corrected_checkpoints/
+/results/av2_confirmation/bootstrap_batches/
+/results/av2_confirmation/corrected_run_logs/
+/results/av2_confirmation/invalid_propagation_run/
+/results/av2_confirmation/*.parquet
+/results/av2_confirmation/*.log
+/results/object_motion_harm/*.shard-*
+/results/object_motion_harm/*.parquet
+/results/object_motion_harm/*.log
+
+# Local audit, recovery, and superseded artifacts
+/disk_cleanup_*.txt
+/disk_usage_report.csv
+/temp_audit.csv
+/recover_src/
+/scripts/temp_audit*.py
+/results/av2_confirmation/*_PREMATURE.md
+
+# Local audit, recovery, and superseded artifacts
+/disk_cleanup_*.txt
+/disk_usage_report.csv
+/temp_audit.csv
+/recover_src/
+/scripts/temp_audit*.py
+/results/av2_confirmation/*_PREMATURE.md
+
+# Internal manuscript-planning notes retained locally
+/docs/audience_prior_map.md
+/docs/candidate_abstract.md
+/docs/candidate_titles.md
+/docs/claim_calibration_table.csv
+/docs/epistemic_surprise_claim.md
+/docs/journal_positioning.md
+/docs/manuscript_outline.md
+/docs/object_motion_harm_analysis_plan.md

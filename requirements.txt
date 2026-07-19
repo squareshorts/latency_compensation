@@ -1,0 +1,7 @@
+# Core analysis and tests
+-e .[test]
+
+# Detector and dataset dependencies are optional because the archived release
+# distributes aggregate outputs rather than licensed data or detector weights.
+# To rerun inference locally:
+# pip install -e ".[inference,test]"

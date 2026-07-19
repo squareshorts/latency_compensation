@@ -1,0 +1,13 @@
+{
+  "method": "absolute ego yaw rate from official AV2 city_SE3_egovehicle poses",
+  "development_only": true,
+  "latency_ms": 300,
+  "quantile": 0.75,
+  "threshold_abs_yaw_rate_rad_s": 0.016972645834883636,
+  "development_unique_frame_pairs": 12411,
+  "comparison_rows": 2148207,
+  "comparison_rows_recovered": 2147847,
+  "equivalent_metric_rows": 12889242,
+  "equivalent_metric_rows_recovered": 12887082,
+  "recovered_percent": 99.98324183842618
+}

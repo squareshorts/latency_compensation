@@ -1,0 +1,7 @@
+panel,model,relative_error_index
+Prior expectation,B3,1
+Prior expectation,B5,0.85
+Observed YOLO11n,B3,1
+Observed YOLO11n,B5,1.19180733885
+Observed YOLO11s,B3,1
+Observed YOLO11s,B5,1.21057880937

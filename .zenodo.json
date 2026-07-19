@@ -1,0 +1,25 @@
+{
+  "title": "When More Motion Modeling Hurts: Causal Latency Compensation for Streaming Object Detection",
+  "upload_type": "software",
+  "description": "Reproducible analysis code, frozen configurations, aggregate results, and audit records for causal latency compensation of delayed object detections. The study compares ego-motion-only propagation with universal ego-plus-estimated-object-motion propagation across YOLO11n, YOLO11s, and RT-DETR-L.",
+  "creators": [
+    {
+      "name": "Pereira, Antonio",
+      "affiliation": "Faculdade de Engenharia ElÃ©trica e BiomÃ©dica, Instituto de Tecnologia, Universidade Federal do ParÃ¡, BelÃ©m, Brazil"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-07-18",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "streaming perception",
+    "object detection",
+    "latency compensation",
+    "ego-motion compensation",
+    "multi-object tracking",
+    "autonomous driving",
+    "Argoverse 2",
+    "RT-DETR"
+  ]
+}

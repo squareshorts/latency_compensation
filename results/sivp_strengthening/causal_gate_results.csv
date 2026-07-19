@@ -1,0 +1,7 @@
+detector,endpoint,logs,comparisons,median_B3_error,median_B5_error,median_G2_error,median_G2_minus_B3_error,median_G2_minus_B3_iou,recall_loss_percentage_points,extension_logs_improved_percent,selected_B5_percent
+rtdetr_l,300ms_high_yaw,15,12905,0.00757405617279,0.00874592584054,0.00757405617279,0,0,-0,0,0
+rtdetr_l,all_horizons_all_yaw,21,227116,0.0080910664947,0.00907015727858,0.0080910664947,0,0,-0,0,0
+yolo11n,300ms_high_yaw,9,3835,0.00614270749044,0.00847768324677,0.00614270749044,0,0,-0,0,0
+yolo11n,all_horizons_all_yaw,10,51659,0.00765798136457,0.0082559884829,0.00765798136457,0,0,-0,0,0
+yolo11s,300ms_high_yaw,33,10936,0.00630032836844,0.00723312252691,0.00630032836844,0,0,-0,0,0
+yolo11s,all_horizons_all_yaw,45,275856,0.00610437786856,0.00705283467433,0.00610437786856,0,0,-0,0,0

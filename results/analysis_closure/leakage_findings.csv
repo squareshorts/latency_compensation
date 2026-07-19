@@ -1,0 +1,7 @@
+component,leakage
+trackers,PASS
+B3,PASS
+B5,PASS
+RT-DETR,PASS
+causal_gate,PASS_WITH_LIMITATIONS
+diagnostic_mechanism_analysis,PASS_DIAGNOSTIC_ONLY

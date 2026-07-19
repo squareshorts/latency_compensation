@@ -1,11 +1,72 @@
 {
-  "study": "AV2 confirmatory analysis",
-  "status": "cohort_downloaded_pair_audit_complete_detector_inference_not_started",
+  "study": "AV2 confirmatory analysis propagation-validity audit",
   "seed": 20260717,
-  "cohort": {"development_logs": 80, "model_selection_logs": 20, "heldout_logs": 50, "total_logs": 150},
-  "payload": {"objects": 72557, "bytes": 38058552798, "verified": true, "camera": "ring_front_center"},
-  "latency_pairs": {"timestamp_pairs": 116200, "requested_offsets_ms": [100, 200, 300, 400, 500], "annotation_interpolation": false},
-  "detectors": {"primary": "YOLO11n", "secondary": "YOLO11s", "inference_status": "not_started"},
-  "methods_frozen": true,
-  "future_geometry_input": false
+  "current_scientific_decision": "NO-GO for B5 on corrected propagation",
+  "previous_decision": "premature NO-GO from invalid propagation (withdrawn and archived)",
+  "detector_inference_rerun": false,
+  "detector_checkpoints_preserved": 300,
+  "original_propagation": {
+    "status": "invalid",
+    "parquet_files": 300,
+    "metric_rows": 12889242,
+    "preserved_under": "results/av2_confirmation/invalid_propagation_run/checkpoints",
+    "B3_equals_B0_all_groups": true,
+    "B2_equals_B1_all_groups": true,
+    "B4_equals_B1_all_groups": true
+  },
+  "row_level_recalculation": {
+    "comparisons": 1000,
+    "heldout_logs": 10,
+    "detectors": 2,
+    "latencies_ms": [100, 200, 300, 400, 500],
+    "tolerance_px": 1e-06,
+    "B3_agreement_percent": 0.0,
+    "B4_agreement_percent": 0.0,
+    "B5_agreement_percent": 0.0
+  },
+  "yaw_recovery": {
+    "metric_rows_recovered": 12887082,
+    "metric_rows_total": 12889242,
+    "recovered_percent": 99.98324183842618,
+    "development_300ms_threshold_abs_yaw_rate_rad_s": 0.016972645834883636,
+    "heldout_300ms_high_yaw_comparisons_both_detectors": 33818
+  },
+  "runtime": {
+    "status": "recovered_on_warmed_corrected_propagation_benchmark",
+    "repetitions_per_model": 2000,
+    "B4_estimated_median_frame_overhead_ms": 1.08975674347,
+    "B4_estimated_p95_frame_overhead_ms": 1.983939447,
+    "B5_estimated_median_frame_overhead_ms": 1.13796801843,
+    "B5_estimated_p95_frame_overhead_ms": 2.14039867896
+  },
+  "negative_controls": {
+    "status": "complete_on_corrected_300ms_high_yaw_heldout_eligible_set",
+    "controls": 8,
+    "yolo11n_comparisons": 11425,
+    "yolo11s_comparisons": 14089,
+    "same_eligible_comparisons": true,
+    "no_object_motion_outperformed_B4": true
+  },
+  "corrected_propagation": {
+    "status": "complete_integrity_passed",
+    "output_directory": "results/av2_confirmation/corrected_checkpoints",
+    "overwrites_original_parquets": false,
+    "parquet_files": 300,
+    "model_rows": 10347774,
+    "unique_comparisons": 1724629,
+    "duplicate_comparison_model_rows": 0,
+    "comparisons_with_incomplete_model_sets": 0,
+    "future_geometry_input_rows": 0,
+    "independent_recalculation_eligible_rows": 760,
+    "independent_recalculation_agreement_all_models_percent": 100.0
+  },
+  "corrected_primary_endpoint": {
+    "evaluable": true,
+    "result_issued": true,
+    "decision": "NO-GO for B5",
+    "estimand": "median paired per-log relative normalized-center-error difference; heldout; 300 ms; high yaw",
+    "yolo11n_B5_disadvantage_percent": 19.18073388545,
+    "yolo11s_B5_disadvantage_percent": 21.0578809365,
+    "reason": "B5 is consistently worse than ego-motion-only B3 across both frozen detectors"
+  }
 }

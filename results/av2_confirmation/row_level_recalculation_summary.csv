@@ -1,0 +1,7 @@
+model,comparisons,tolerance_px,agreements_within_tolerance,agreement_percent,median_max_abs_difference_px,maximum_abs_difference_px,stored_output_valid
+B0,1000,1e-06,1000,100,0,0,True
+B1,1000,1e-06,60,6,666.617179503,7421.40384422,False
+B2,1000,1e-06,45,4.5,670.006570603,7405.47827726,False
+B3,1000,1e-06,0,0,16.5037026035,495.052006667,False
+B4,1000,1e-06,0,0,655.725192329,7412.84536816,False
+B5,1000,1e-06,0,0,425.922032333,4833.06442579,False

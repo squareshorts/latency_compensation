@@ -1,0 +1,26 @@
+component,detector,model,median_runtime_ms,p95_runtime_ms,observations,hardware,timing_scope,model_loading_excluded,disk_io_excluded,status
+detector_inference,rtdetr_l,,77.5890095533934,151.70404056425065,16022,Desktop GPU / CPU (Varies),per_frame,True,True,INSTRUMENTED
+tracker_prediction,rtdetr_l,T0,0.0021,0.0038,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,rtdetr_l,T1,0.0632,0.1146,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+SORT_Kalman,rtdetr_l,T2,0.6978,1.097725,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,rtdetr_l,T3,0.167903708791,0.322566666667,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,rtdetr_l,T4,0.224528,0.44116,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+ego_motion_propagation,rtdetr_l,T5,0.3298,0.5345,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+object_motion_augmentation,rtdetr_l,T6,0.3094,0.5048,522636,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11n,T0,0.0016,0.0024,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11n,T1,0.0503,0.0634,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+SORT_Kalman,yolo11n,T2,0.5022,0.6736,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11n,T3,0.226163636364,0.350271428571,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11n,T4,0.237355555556,0.3725875,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+ego_motion_propagation,yolo11n,T5,0.236,0.3229,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+object_motion_augmentation,yolo11n,T6,0.2216,0.3024,242053,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11s,T0,0.0014,0.0021,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11s,T1,0.043,0.061,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+SORT_Kalman,yolo11s,T2,0.4541,0.6644,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11s,T3,0.2455,0.355449285714,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+tracker_prediction,yolo11s,T4,0.237677777778,0.358546083916,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+ego_motion_propagation,yolo11s,T5,0.2144,0.3184,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+object_motion_augmentation,yolo11s,T6,0.2005,0.2984,290783,Desktop CPU,per_object_propagation,True,True,INSTRUMENTED
+association,all,N/A,,,0,N/A,N/A,True,True,Not separately instrumented in the frozen run.
+gate_evaluation,all,N/A,,,0,N/A,N/A,True,True,Not separately instrumented in the frozen run.
+total_overhead,all,N/A,,,0,N/A,N/A,True,True,Not separately instrumented in the frozen run.

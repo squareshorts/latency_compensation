@@ -1,0 +1,3 @@
+detector,median_overhead_ms,p95_overhead_ms,status
+yolo11n,,,not_evaluable_runtime_not_stored_in_frozen_parquet
+yolo11s,,,not_evaluable_runtime_not_stored_in_frozen_parquet

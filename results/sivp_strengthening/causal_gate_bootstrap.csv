@@ -1,0 +1,7 @@
+detector,endpoint,contrast,median_difference,bootstrap_ci_low,bootstrap_ci_high,wilcoxon_p,replicates
+rtdetr_l,300ms_high_yaw,G2_minus_B3_normalized_center_error,0,0,0,,10000
+rtdetr_l,all_horizons_all_yaw,G2_minus_B3_normalized_center_error,0,0,0,,10000
+yolo11n,300ms_high_yaw,G2_minus_B3_normalized_center_error,0,0,0,1,10000
+yolo11n,all_horizons_all_yaw,G2_minus_B3_normalized_center_error,0,0,0,1,10000
+yolo11s,300ms_high_yaw,G2_minus_B3_normalized_center_error,0,0,0,,10000
+yolo11s,all_horizons_all_yaw,G2_minus_B3_normalized_center_error,0,0,0,,10000

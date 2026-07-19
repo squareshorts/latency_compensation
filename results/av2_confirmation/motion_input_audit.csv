@@ -1,0 +1,11 @@
+metric,all_null,all_zero,constant,nontrivial,sample_scope
+ego_translation_m,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+ego_yaw_change_rad,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+ego_predicted_pixel_displacement,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+historical_image_velocity_norm_px_s,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+kalman_velocity_norm_px_s,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+object_motion_estimate_norm_m_s,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+valid_depth_indicator,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+valid_depth_m,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+track_age,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons
+uncertainty_damping_weight,False,False,False,True,1000 deterministic heldout comparisons; both detectors; 10 logs; all five horizons

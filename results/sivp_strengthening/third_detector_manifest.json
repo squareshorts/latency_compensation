@@ -1,0 +1,27 @@
+{
+  "detector": "RT-DETR-L",
+  "implementation": "Ultralytics RTDETR official supported checkpoint",
+  "checkpoint": "C:\\work\\auto\\rtdetr-l.pt",
+  "checkpoint_sha256": "6de60b10d4bc566f00cda0f5b4d64afe4b66d48dc9695d2171effb7859d8e73f",
+  "input_resolution": 640,
+  "confidence_threshold": 0.25,
+  "nms": "none; RT-DETR end-to-end prediction",
+  "class_mapping": "COCO class 0 -> pedestrian/cyclist analysis group; 2,5,7 -> vehicle; others -> other",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "torch": "2.13.0+cu126",
+  "ultralytics": "8.4.96",
+  "python": "3.10.11",
+  "timing": "wall clock around streamed inference; excludes model load and JSON write",
+  "created_utc": "2026-07-18T20:25:05.551835+00:00",
+  "role_started": "extension",
+  "future_detection_input": false,
+  "roles_started": [
+    "heldout",
+    "extension"
+  ],
+  "heldout_logs_completed": 50,
+  "heldout_frames": 16022,
+  "median_log_inference_seconds": 24.71173704999819,
+  "median_log_fps": 12.889100536022923
+}

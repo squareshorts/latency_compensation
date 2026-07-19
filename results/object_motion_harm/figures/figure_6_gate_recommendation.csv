@@ -1,0 +1,7 @@
+record_type,detector,gate,logs,objects,median_of_log_median_center_error,median_of_log_median_iou,recall_iou_0_3,recall_iou_0_5,recall_iou_0_7,estimated_overhead_ms_per_object,selected_B5_percent,absolute_difference,ci_low,ci_high,logs_improved_percent,false_positive_selection_rate,false_negative_selection_rate,probability_bin,mean_predicted_benefit,observed_benefit
+endpoint,yolo11n,G0,250,242053,0.00732513763386,0.558614244378,1,1,0,0.1392,0,,,,,,,,,
+endpoint,yolo11n,G1,250,242053,0.0084633445398,0.538138485209,1,1,0,0.1255,100,,,,,,,,,
+endpoint,yolo11n,G2,250,242053,0.00656404789426,0.587158367003,1,1,0,0.135345652812,28.1339210834,,,,,,,,,
+endpoint,yolo11s,G0,250,290783,0.00686670234036,0.573508647923,1,1,0,0.1392,0,,,,,,,,,
+endpoint,yolo11s,G1,250,290783,0.00731160300927,0.53121035174,1,1,0,0.1255,100,,,,,,,,,
+endpoint,yolo11s,G2,250,290783,0.00588662548718,0.580338020785,1,1,0,0.135169712466,29.4181571825,,,,,,,,,

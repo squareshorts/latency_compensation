@@ -1,0 +1,55 @@
+freeze_seed: 20260719
+status: prespecified_before_extension_outcomes
+model: regularized_logistic_regression
+regularization:
+  penalty: l2
+  C: 1.0
+  solver: lbfgs
+  maximum_iterations: 1000
+training_split: development
+threshold_selection_split: model_selection
+extension_split: av2_extension_logs
+features:
+  - detector_confidence
+  - track_age
+  - number_historical_detections
+  - association_confidence
+  - estimated_3d_velocity_m_s
+  - velocity_dispersion_m_s
+  - acceleration_estimate_m_s2
+  - lidar_point_count
+  - source_depth_m
+  - depth_uncertainty_m
+  - source_box_area_px2
+  - ego_yaw_rate_rad_s
+  - delta_ms
+forbidden_feature_patterns:
+  - true_
+  - target_
+  - future_
+  - B3_error
+  - B5_error
+  - delta_harm
+  - object_displacement
+  - evaluation_track_uuid
+label_used_for_training_only: B5_normalized_center_error_less_than_B3
+threshold_grid: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90]
+frozen_threshold: 0.60
+frozen_model_sha256: da9f8212119d001b11b0eff343de2349984914cfa0383290befb1c576351bb55
+threshold_selection_rule: >-
+  Among thresholds with no more than 2 percentage-point recall loss relative
+  to B3 on model-selection logs, choose the threshold with lowest log-weighted
+  normalized center error; break ties toward the higher threshold.
+success_criteria:
+  lower_normalized_center_error_than_B3: true
+  iou_improved_or_noninferior: true
+  maximum_recall_loss_percentage_points: 2
+  minimum_extension_logs_improved_percent: 70
+  paired_log_bootstrap_interval_excludes_zero: true
+  minimum_detector_architectures_consistent: 2
+  no_future_information_leakage: true
+bootstrap:
+  unit: log
+  replicates: 10000
+extension_log_count: 45
+extension_log_seed: 20260719

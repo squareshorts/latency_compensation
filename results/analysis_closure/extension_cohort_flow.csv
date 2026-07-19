@@ -1,0 +1,4 @@
+detector,manifest_logs,downloaded_logs,detector_complete_logs,propagation_complete_logs,gate_eligible_logs,excluded_logs
+yolo11n,45,45,45,10,9,36
+yolo11s,45,45,45,45,33,12
+rtdetr_l,45,45,0,0,0,45

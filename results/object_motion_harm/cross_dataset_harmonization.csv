@@ -1,0 +1,8 @@
+analysis,dataset,groups,objects,B3_normalized_center_error,B5_normalized_center_error,B5_relative_difference,B5_better,latency_ms,detector,metric_definition,implementation_note
+direct_common_definition,AV2,50,39521,0.00889038077584,0.0116753781898,0.313259632422,False,500,yolo11n,normalized center error by image diagonal,
+direct_common_definition,nuScenes,10,1119,0.00983753607326,0.0110965165694,0.127977217748,False,500,yolo11n,normalized center error by image diagonal,
+nuScenes_real_data_feasibility_result,nuScenes,10,1487,0.011476541932,0.00939311149882,-0.181538171123,True,500,yolo11n,normalized center error by image diagonal,fast integrated IMU B3 plus GT-instance-associated B4 object history
+importance_weighted_AV2_to_nuScenes,AV2,50,39521,0.0133906636817,0.0156447025008,0.168329133843,False,500,yolo11n,normalized center error by image diagonal,
+nearest_covariate_matched_AV2,AV2,47,1119,0.0107641534745,0.0173313304892,0.61009693241,False,500,yolo11n,normalized center error by image diagonal,
+restricted_common_support,AV2,48,366,0.0112236770382,0.0168996780164,0.505716705755,False,500,yolo11n,normalized center error by image diagonal,
+restricted_common_support,nuScenes,10,968,0.00931397783282,0.00919562110978,-0.0127074301839,True,500,yolo11n,normalized center error by image diagonal,

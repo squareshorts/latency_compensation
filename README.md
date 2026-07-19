@@ -1,52 +1,59 @@
 # Latency-Compensated Detection
 
-## Problem
+This repository evaluates causal post-processing for detector boxes that become stale while an image is being processed. It transports a source-time two-dimensional detection into the camera frame at detector availability using measured ego motion, source-time LiDAR depth, and—when enabled—object motion estimated from detector history.
 
-Streaming detectors return boxes after the camera has moved. This project develops a detector-agnostic, retraining-free post-processing layer that transforms a detection from its acquisition frame into the camera frame current when that detection becomes available.
+## Frozen confirmatory result
 
-## nuScenes real-data feasibility result
+The fixed Argoverse 2 analysis contains 80 development, 20 model-selection, and 50 held-out logs; preserved YOLO11n and YOLO11s outputs; and real 100–500 ms target timestamps. At the prespecified 300-ms high-yaw endpoint, universally adding uncertainty-damped estimated object motion (B5) was worse than ego-motion-only propagation (B3):
 
-The nuScenes real-data feasibility result contains 339 annotated frame pairs, 1,487 paired detector-object observations, and 10 complete scenes. In high-yaw frames, stale boxes had 62.950 px median center error and 0.2572 median IoU. Causal ego-motion plus historical object-motion compensation reduced error to 20.461 px and raised IoU to 0.5147. The nuScenes independent reproduction and baseline-comparison analysis exactly reproduced the result and added a 10,000-replicate paired scene bootstrap.
+- YOLO11n: 19.1807% greater normalized center error;
+- YOLO11s: 21.0579% greater normalized center error.
 
-## Proposed method
+Both paired log-cluster bootstrap intervals exclude zero. Oracle future object motion improves over B3, so the negative result is an estimation failure—not evidence that object motion is physically irrelevant. Velocity-sign and association errors are the leading diagnosed mechanisms. The confirmatory decision is **NO-GO for universal B5** and **PAPER GO for the negative result**.
 
-The active method combines measured camera motion, source-time lidar depth, and object velocity estimated from historical detector boxes. It never consumes annotation geometry or object state after detector availability. Conceptually, it is inspired by rapid vestibular compensation for self-motion.
+## Submission-strengthening analysis
 
-## Baselines
+The `revision/sivp-submission-strengthening` branch adds:
 
-- N0: stale box.
-- N1: constant image-space velocity.
-- N2: Kalman image-space extrapolation.
-- N3: tracker prediction without a new detection.
-- N4: ego-motion-only geometry.
-- N5: ego-motion plus historical object motion.
-- N6: future-object-motion oracle, diagnostic only.
+- stale, image-velocity, SORT, ByteTrack-style, and OC-SORT-style causal prediction baselines;
+- persistent-object and full-frame current-time detection metrics;
+- one prespecified architecture-distinct RT-DETR-L robustness analysis;
+- one L2-logistic causal gate frozen before evaluation on 45 untouched AV2 validation logs;
+- log-cluster bootstrap, Wilcoxon sensitivity, failure-stratum, provenance, leakage, and independent recalculation outputs.
 
-## AV2 confirmation design
+On the exact frozen matched-comparison set, OC-SORT prediction is the strongest non-ego tracker, but B3 remains substantially better at the primary endpoint for both current detectors. The original B3/B5 tables are protected by hashes in `docs/sivp_strengthening_freeze.md` and are never rewritten by strengthening scripts.
 
-The frozen plan uses official Argoverse 2 Sensor data, two real detectors, complete-log grouping, and genuine annotated endpoints at 100–500 ms. The primary endpoint is normalized center error at 300 ms in high-yaw held-out logs. The fixed 80-development/20-model-selection/50-held-out cohort has been downloaded and verified; detector inference and propagation remain to be run.
+## Information boundary
 
-## Causal-data rules
-
-Only detections, lidar, poses, vehicle state, and images timestamped no later than detector availability are model inputs. Future annotations establish identity and evaluation endpoints only. Annotation interpolation, pseudo-labeling, future velocity, and object-level significance tests are prohibited.
+Deployable predictions may use detector outputs, LiDAR, calibration, measured ego poses, and histories timestamped no later than the source time. Target annotations define evaluation endpoints only. No tracker receives a target-time detection. Oracle diagnostics are explicitly marked and excluded from deployment claims.
 
 ## Reproduction
 
+With licensed/selectively downloaded benchmark files and ignored detector weights available locally:
+
 ```powershell
-$env:PYTHONPATH='C:\work\auto\src'
-& 'C:\work\auto\.venv-not-robotics\Scripts\python.exe' 'C:\work\auto\scripts\reproduce_nuscenes_reproduction.py'
-& 'C:\work\auto\.venv-not-robotics\Scripts\python.exe' -m pytest
-& 'C:\work\auto\.venv-not-robotics\Scripts\python.exe' -m latency_compensation.run_confirmation --config 'C:\work\auto\configs\av2_confirmation.yaml' --smoke-test
+powershell -ExecutionPolicy Bypass -File .\scripts\reproduce_sivp_strengthening.ps1
 ```
 
-## Results
+The test-only command is:
 
-The nuScenes independent reproduction and baseline-comparison analysis is under `results/nuscenes_500ms_reproduction`. The fixed AV2 cohort and timestamp audit are under `results/av2_confirmation`; its scientific decision remains blocked pending the two frozen detector runs and causal evaluation.
+```powershell
+$env:PYTHONPATH='C:\work\auto\src'
+.\.venv-not-robotics\Scripts\python.exe -m pytest -q
+```
+
+The analysis is resumable at detector/log boundaries. Raw AV2 and nuScenes files, detector weights, large low-level checkpoints, and licensed payloads are excluded from version control. Aggregate tables, configurations, manifests, hashes, and audit records are release artifacts.
+
+## Repository map
+
+- `configs/`: frozen cohorts, propagation method, extension cohort, and causal-gate specification;
+- `src/latency_compensation/`: reusable geometry, statistics, and causal tracker code;
+- `scripts/`: inference, propagation, aggregation, gate, sensitivity, and audit entry points;
+- `results/av2_confirmation/`: original AV2 confirmation inputs and frozen decision;
+- `results/object_motion_harm/`: component-substitution and reversal diagnosis;
+- `results/sivp_strengthening/`: reviewer-facing tracker, end-to-end, architecture, gate, and audit outputs;
+- `docs/`: scientific freezes and reproduction notes.
 
 ## Limitations
 
-The nuScenes result is a pilot only in evidential scope: it uses 10 mini scenes, one detector, source-annotation-assisted identity matching, and a 500 ms horizon. It is not a publication-level external confirmation. AV2 detector-only association, multiple-detector comparison, and the 300 ms endpoint remain open.
-
-## Archived routes
-
-Closed reliability-gating, visual-residual, annotation-cadence, biological, and invalid-synthetic routes are isolated under `archive`. They are preserved as negative evidence and are not active objectives.
+The tracker adapters isolate prediction under a fixed detection stream; they are not claims about full unmodified tracking systems with appearance embeddings or target-time observation updates. The architecture analysis is limited to one prespecified non-YOLO detector. Dataset licenses prevent redistribution of raw benchmark payloads. Repository URL and archival DOI remain unset until external release publication is completed.

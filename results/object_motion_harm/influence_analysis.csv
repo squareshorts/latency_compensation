@@ -1,0 +1,71 @@
+dataset,left_out_group,analysis,groups,objects,B3_normalized_center_error,B5_normalized_center_error,B5_relative_difference,B5_better,latency_ms,detector,metric_definition
+AV2,0b86f508-5df9-4a46-bc59-5b9536dbde9f,leave_one_group_out,49,38459,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,0c3bad78-9f1e-395d-a376-2eb7499229fd,leave_one_group_out,49,38796,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,0fb7276f-ecb5-3e5b-87a8-cc74c709c715,leave_one_group_out,49,38647,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,15ec0778-826e-3ed7-9775-54fbf66997f4,leave_one_group_out,49,39214,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,182ba3f7-b89a-36cc-ae40-32a341b0d3e9,leave_one_group_out,49,39148,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,19350c96-623d-4d77-af96-f8c23f00c358,leave_one_group_out,49,38927,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,1da4a0aa-22ae-3958-856d-05303de1f576,leave_one_group_out,49,38328,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,20dd185d-b4eb-3024-a17a-b4e5d8b15b65,leave_one_group_out,49,39019,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,24642607-2a51-384a-90a7-228067956d05,leave_one_group_out,49,38761,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,27c03d98-6ac3-38a3-ba5e-102b184d01ef,leave_one_group_out,49,39179,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,29a00842-ead2-3050-b587-c5ef507e4125,leave_one_group_out,49,37907,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,2c652f9e-8db8-3572-aa49-fae1344a875b,leave_one_group_out,49,38983,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,36aec72e-5086-376c-b109-295b128e77e1,leave_one_group_out,49,38614,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,3de5b5d6-68c4-3c95-84ed-be7c83d829f8,leave_one_group_out,49,38628,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,44adf4c4-6064-362f-94d3-323ed42cfda9,leave_one_group_out,49,38874,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,47286726-5dd4-4e26-bd2d-5324f429e445,leave_one_group_out,49,37930,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,4e3fedbb-847c-3d5b-8a62-c9ff84550985,leave_one_group_out,49,38891,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,52071780-5758-3ed4-8835-0d64ecdc5575,leave_one_group_out,49,38120,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,58e82365-03bc-3b2f-b55a-a4ad0e3e792d,leave_one_group_out,49,38893,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,58fed0d4-97d5-469b-89a4-4394838e10c7,leave_one_group_out,49,38908,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,6c932547-4c11-31d7-b8ef-0c16a13dbfc3,leave_one_group_out,49,37989,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,7039e410-b5ab-35aa-96bc-2c4b89d3c5e3,leave_one_group_out,49,38853,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,78683234-e6f1-3e4e-af52-6f839254e4c0,leave_one_group_out,49,38923,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,78da7b7e-8ddf-3c7d-8716-eaa890106dd3,leave_one_group_out,49,38663,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,7a2c222d-addc-30b2-aac6-596cb65a22e3,leave_one_group_out,49,39427,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,858d739b-a0ba-35aa-bafc-4f7988bcad17,leave_one_group_out,49,38964,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,95bf6003-7068-3a78-a0c0-9e470a06e60f,leave_one_group_out,49,38130,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,a7636fca-4d9e-3052-bef2-af0ce5d1df74,leave_one_group_out,49,38781,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,a91d4c7b-bf55-3a0e-9eba-1a43577bcca8,leave_one_group_out,49,38505,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,b19f3c1a-a84a-3a2d-8d1b-8a4ae201020b,leave_one_group_out,49,38084,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,b2053fdc-0b94-30bc-aee7-5bc6fb7e9f52,leave_one_group_out,49,38167,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,b50c4763-5d1e-37f4-a009-2244aeebabcd,leave_one_group_out,49,39315,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,b87683ae-14c5-321f-8af3-623e7bafc3a7,leave_one_group_out,49,39064,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,c8ec7be0-92aa-3222-946e-fbcf398c841e,leave_one_group_out,49,38832,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,cae56e40-8470-3c9c-af75-6e444189488f,leave_one_group_out,49,38277,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,d1395998-7e8a-417d-91e9-5ca6ec045ee1,leave_one_group_out,49,38710,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,d3ca0450-2167-38fb-b34b-449741cb38f3,leave_one_group_out,49,39232,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,d5d6f11c-3026-3e0e-9d67-c111233e22de,leave_one_group_out,49,38631,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,da036982-92bf-36a8-b880-4ccf4e20b74e,leave_one_group_out,49,39090,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,dafe14f5-825c-4e7a-9009-6dfdfdd5b030,leave_one_group_out,49,38961,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,e1d68dde-22a9-3918-a526-0850b21ff2eb,leave_one_group_out,49,39073,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,e2e921fe-e489-3656-a0a2-5e17bd399ddf,leave_one_group_out,49,38847,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+AV2,e50e7698-de3d-355f-aca2-eddd09c09533,leave_one_group_out,49,38441,0.00899590750511,0.0115903714444,0.28840491499,False,500,yolo11n,normalized center error by image diagonal
+AV2,e72ef05c-8b94-3885-a34f-fff3b2b954b4,leave_one_group_out,49,38905,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,e8c9fd64-fdd2-422d-a2a2-6f47500d1d12,leave_one_group_out,49,38718,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,eec284b2-840a-3c75-aa42-04d2e309bbe1,leave_one_group_out,49,39100,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,f1275002-842e-3571-8f7d-05816bc7cf56,leave_one_group_out,49,38266,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,f2576c8a-da9b-450e-88cf-a70af1b0eadf,leave_one_group_out,49,39187,0.00878485404657,0.0115903714444,0.319358452963,False,500,yolo11n,normalized center error by image diagonal
+AV2,f292cc5c-7a90-360d-b62a-074c643bdf59,leave_one_group_out,49,38815,0.00899590750511,0.0117603849352,0.307303896631,False,500,yolo11n,normalized center error by image diagonal
+AV2,f6cc0ebf-fc6a-3bf2-8bcb-76d8c43f194e,leave_one_group_out,49,38353,0.00878485404657,0.0117603849352,0.338711476915,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0061,leave_one_group_out,9,1076,0.00994487945809,0.0113990961454,0.146227683647,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0103,leave_one_group_out,9,889,0.00994487945809,0.0113990961454,0.146227683647,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0553,leave_one_group_out,9,1045,0.00973019268844,0.0107939369934,0.109324073949,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0655,leave_one_group_out,9,1012,0.00994487945809,0.0113990961454,0.146227683647,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0757,leave_one_group_out,9,1065,0.00973019268844,0.0107939369934,0.109324073949,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0796,leave_one_group_out,9,1002,0.00994487945809,0.0113990961454,0.146227683647,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-0916,leave_one_group_out,9,881,0.00994487945809,0.0107939369934,0.0853763526176,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-1077,leave_one_group_out,9,1035,0.00973019268844,0.0113990961454,0.171518027483,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-1094,leave_one_group_out,9,1004,0.00973019268844,0.0107939369934,0.109324073949,False,500,yolo11n,normalized center error by image diagonal
+nuScenes,scene-1100,leave_one_group_out,9,1062,0.00973019268844,0.0107939369934,0.109324073949,False,500,yolo11n,normalized center error by image diagonal
+nuScenes_feasibility,scene-0061,leave_one_scene_out_original,9,,0.0123030660731,0.00939778412703,-0.236142919886,True,,,
+nuScenes_feasibility,scene-0103,leave_one_scene_out_original,9,,0.0123030660731,0.00939778412703,-0.236142919886,True,,,
+nuScenes_feasibility,scene-0553,leave_one_scene_out_original,9,,0.0106500177908,0.00939778412703,-0.117580429291,True,,,
+nuScenes_feasibility,scene-0655,leave_one_scene_out_original,9,,0.0106500177908,0.00938843887061,-0.118457916691,True,,,
+nuScenes_feasibility,scene-0757,leave_one_scene_out_original,9,,0.0106500177908,0.00938843887061,-0.118457916691,True,,,
+nuScenes_feasibility,scene-0796,leave_one_scene_out_original,9,,0.0123030660731,0.00939778412703,-0.236142919886,True,,,
+nuScenes_feasibility,scene-0916,leave_one_scene_out_original,9,,0.0123030660731,0.00938843887061,-0.236902507486,True,,,
+nuScenes_feasibility,scene-1077,leave_one_scene_out_original,9,,0.0123030660731,0.00939778412703,-0.236142919886,True,,,
+nuScenes_feasibility,scene-1094,leave_one_scene_out_original,9,,0.0106500177908,0.00938843887061,-0.118457916691,True,,,
+nuScenes_feasibility,scene-1100,leave_one_scene_out_original,9,,0.0106500177908,0.00938843887061,-0.118457916691,True,,,

@@ -3,6 +3,7 @@ import pandas as pd
 import pytest
 
 from latency_compensation.association import hungarian_iou
+from latency_compensation.av2_models import assemble_distinct_model_boxes, assert_nonzero_motion_branches
 from latency_compensation.datasets import deterministic_log_split
 from latency_compensation.ego_motion import integrate_planar_motion
 from latency_compensation.geometry import box_iou, box_to_state, state_to_box
@@ -63,3 +64,14 @@ def test_scene_split_isolation_and_determinism():
     assert first == second
     sets = [set(value) for value in first.values()]
     assert not (sets[0] & sets[1] or sets[0] & sets[2] or sets[1] & sets[2])
+
+
+def test_av2_model_branches_are_distinct_and_not_aliased():
+    models = assemble_distinct_model_boxes(
+        b0=[0, 0, 10, 10], b1=[2, 0, 12, 10], b2=[3, 0, 13, 10],
+        b3=[0, 1, 10, 11], b4=[4, 1, 14, 11], b5=[2, 1, 12, 11],
+    )
+    assert len({id(value) for value in models.values()}) == 6
+    assert_nonzero_motion_branches(models, ego_motion_nonzero=True, image_motion_nonzero=True, object_motion_nonzero=True)
+    models["B1"][0] = 999
+    assert models["B2"][0] == 3

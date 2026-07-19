@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-07-18T19:20:00Z",
+  "information_boundary": "detections with timestamp <= source timestamp only",
+  "target_time_detection_allowed": false,
+  "T0": {"name": "stale", "implementation": "frozen B0"},
+  "T1": {"name": "constant image-space velocity", "implementation": "frozen B1", "history_observations": 2},
+  "T2": {"name": "SORT Kalman prediction", "implementation": "frozen B2", "state": "cx,cy,w,h and velocities"},
+  "T3": {
+    "name": "ByteTrack causal history and prediction",
+    "implementation": "transparent prediction-only adapter implementing ByteTrack two-stage high/low-confidence association; not an unmodified official runtime",
+    "high_confidence_threshold": 0.5,
+    "low_confidence_threshold": 0.25,
+    "first_stage_minimum_iou": 0.2,
+    "second_stage_minimum_iou": 0.1,
+    "maximum_gap_ms": 600
+  },
+  "T4": {
+    "name": "OC-SORT causal prediction",
+    "implementation": "transparent prediction-only observation-centric adapter; not an unmodified official runtime",
+    "minimum_iou": 0.1,
+    "velocity_direction_weight": 0.2,
+    "maximum_gap_ms": 600
+  },
+  "T5": {"name": "B3 ego motion only", "implementation": "frozen B3"},
+  "T6": {"name": "B5 ego plus damped estimated object motion", "implementation": "frozen B5"},
+  "parameter_selection": "fixed from development/model specification; no held-out tuning",
+  "paired_eligibility": "exact frozen comparison identifiers for matched-object tracker contrasts",
+  "runtime_scope": "prediction/update overhead only; detector inference excluded"
+}

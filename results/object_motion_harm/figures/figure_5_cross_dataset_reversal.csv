@@ -1,0 +1,4 @@
+analysis,dataset,groups,objects,B3_normalized_center_error,B5_normalized_center_error,B5_relative_difference,B5_better,latency_ms,detector,metric_definition,implementation_note,label
+direct_common_definition,AV2,50,39521,0.00889038077584,0.0116753781898,0.313259632422,False,500,yolo11n,normalized center error by image diagonal,,AV2 common B3/B5
+direct_common_definition,nuScenes,10,1119,0.00983753607326,0.0110965165694,0.127977217748,False,500,yolo11n,normalized center error by image diagonal,,nuScenes common B3/B5
+nuScenes_real_data_feasibility_result,nuScenes,10,1487,0.011476541932,0.00939311149882,-0.181538171123,True,500,yolo11n,normalized center error by image diagonal,fast integrated IMU B3 plus GT-instance-associated B4 object history,nuScenes feasibility implementation

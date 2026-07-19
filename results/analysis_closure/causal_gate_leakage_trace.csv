@@ -1,0 +1,14 @@
+feature,contains_forbidden_pattern,status
+detector_confidence,False,PASS
+track_age,False,PASS
+number_historical_detections,False,PASS
+association_confidence,False,PASS
+estimated_3d_velocity_m_s,False,PASS
+velocity_dispersion_m_s,False,PASS
+acceleration_estimate_m_s2,False,PASS
+lidar_point_count,False,PASS
+source_depth_m,False,PASS
+depth_uncertainty_m,False,PASS
+source_box_area_px2,False,PASS
+ego_yaw_rate_rad_s,False,PASS
+delta_ms,False,PASS

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-07-18T19:27:58.761785+00:00",
+  "seed": 20260719,
+  "count": 45,
+  "candidate_pool": "AV2 validation logs excluding all original 150 logs",
+  "selection_inputs": [
+    "city",
+    "mean_speed_mps",
+    "p75_yaw_rate_rad_s",
+    "mean_traffic_objects"
+  ],
+  "outcome_inputs": [],
+  "log_list_sha256": "2314b7cf641f0bafd737d893d2350e9eb2b48c3899d05d594c036c158b560993",
+  "metadata_freeze_sha256": "315765f0311e31b517eb0be03d06f1c13438466a4aca491f49dc98a5a2040c84",
+  "disjoint_from_original_150": true,
+  "outcomes_inspected_before_freeze": false
+}

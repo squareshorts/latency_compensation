@@ -1,0 +1,8 @@
+claim_id,detector,cohort,endpoint,reported_value,recalculated_value,absolute_difference,relative_difference,tolerance,pass,source_file,source_rows,notes
+B3_vs_B5_decline_relative,yolo11n,heldout,300ms_high_yaw,0.191807338854,0.191807338854,0.0,0.0,0.0001,VERIFIED,tracker_bootstrap_intervals.csv,,
+B3_vs_B5_decline_relative,yolo11s,heldout,300ms_high_yaw,0.210578809365,0.210578809365,0.0,0.0,0.0001,VERIFIED,tracker_bootstrap_intervals.csv,,
+B3_vs_B5_decline_relative,rtdetr_l,heldout,300ms_high_yaw,0.165965586555,0.165965586555,0.0,0.0,0.0001,VERIFIED,tracker_bootstrap_intervals.csv,,
+velocity_sign_error_fraction,yolo11n,heldout,all,,0.3851929819536633,,,0.0001,FAIL,failure_mechanism_by_detector.csv,,"Original proportion not directly in CSV, just verifying recalculated"
+velocity_sign_error_fraction,yolo11s,heldout,all,,0.3940062787928359,,,0.0001,FAIL,failure_mechanism_by_detector.csv,,"Original proportion not directly in CSV, just verifying recalculated"
+gate_b5_selection_rate,yolo11n,extension,300ms_high_yaw,0.0,0.0,0.0,0.0,0.0001,VERIFIED,causal_gate_results.csv,,
+gate_b5_selection_rate,yolo11s,extension,300ms_high_yaw,0.0,0.0,0.0,0.0,0.0001,VERIFIED,causal_gate_results.csv,,

@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-07-18T19:39:05.235538+00:00",
+  "model": "regularized_logistic_regression",
+  "features": [
+    "detector_confidence",
+    "track_age",
+    "number_historical_detections",
+    "association_confidence",
+    "estimated_3d_velocity_m_s",
+    "velocity_dispersion_m_s",
+    "acceleration_estimate_m_s2",
+    "lidar_point_count",
+    "source_depth_m",
+    "depth_uncertainty_m",
+    "source_box_area_px2",
+    "ego_yaw_rate_rad_s",
+    "delta_ms"
+  ],
+  "frozen_threshold": 0.6000000000000001,
+  "training_logs": 80,
+  "model_selection_logs": 20,
+  "development_rows": 159881,
+  "model_selection_rows": 207251,
+  "selection_auc": 0.6771177301897773,
+  "selection_brier": 0.22610171303411902,
+  "model_sha256": "da9f8212119d001b11b0eff343de2349984914cfa0383290befb1c576351bb55",
+  "extension_outcomes_seen": false
+}

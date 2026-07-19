@@ -1,0 +1,13 @@
+# Frozen uncertainty gate
+
+- model: `spline_logistic_gam`
+- probability_threshold: `0.6`
+- minimum_track_age: `3`
+- maximum_depth_uncertainty_m: `inf`
+- maximum_velocity_uncertainty_m_s: `inf`
+- fit_split: `development`
+- selection_split: `model_selection`
+- heldout_status_at_freeze: `not_opened_by_this_script`
+- features: `['delta_ms', 'true_object_speed_m_s', 'ego_yaw_rate_rad_s', 'object_distance_m', 'track_age', 'detector_confidence', 'association_confidence', 'depth_uncertainty_m', 'velocity_dispersion_m_s', 'object_class', 'detector']`
+- seed: `20260718`
+- future_information: `False`

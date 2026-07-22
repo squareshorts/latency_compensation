@@ -1,0 +1,4 @@
+detector,diagnostic_rows,gate_features_available,gate_scorable
+yolo11n,780958,13,True
+yolo11s,943671,13,True
+rtdetr_l,0,13,False
